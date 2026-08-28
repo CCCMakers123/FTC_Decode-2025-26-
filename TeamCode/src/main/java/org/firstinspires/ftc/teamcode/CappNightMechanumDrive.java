@@ -14,10 +14,10 @@ public class CappNightMechanumDrive {
         private DcMotor backLeftMotor;
         private DcMotor frontRightMotor;
         private DcMotor backRightMotor;
-        private DcMotorEx kevind;
+        public DcMotorEx kevind;
         private DcMotor curry;
         private IMU imu;
-        PIDFCoefficients pidfCoefficients1 = new PIDFCoefficients(0, 0, 0, 100);
+        PIDFCoefficients pidfCoefficients1 = new PIDFCoefficients(610, 0, 0, 13.6183);
 
         public void init(HardwareMap hwMap)
         {

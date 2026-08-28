@@ -3,7 +3,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.MechanumDrive;
 @TeleOp
-public class MechanumFieldOrientatedOpMode extends OpMode {
+public class ;MechanumFieldOrientatedOpMode extends OpMode {
     MechanumDrive drive = new MechanumDrive();
     double SP = 1500;
     @Override
