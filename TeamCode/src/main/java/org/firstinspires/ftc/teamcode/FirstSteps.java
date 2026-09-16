@@ -23,12 +23,12 @@ public class FirstSteps extends OpMode {
 
     @Override
     public void loop() {
-        if (gamepad1.a) {
-            gerald.setVelocity(1600);
-        }
+        if (gamepad1.a) {gerald.setVelocity(1600);}
+        else {gerald.setVelocity(0);}
         if (gamepad1.b) {
             Jimothy.setPower(0.5);
         }
+        else {Jimothy.setPower(0);}
         ;
 
     }
